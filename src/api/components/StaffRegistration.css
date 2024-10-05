@@ -1,0 +1,139 @@
+.registration-container {
+    max-width: 500px; /* Set a max width for the form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px; /* Add padding */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .registration-title {
+    text-align: center; /* Center the title */
+    color: #3498db; /* DFCU brand color */
+  }
+  
+  .registration-form {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack the elements */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Space between input fields */
+  }
+  
+  .form-group label {
+    margin-bottom: 5px; /* Space between label and input */
+    color: #333; /* Darker text color */
+  }
+  
+  .form-group input {
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners for inputs */
+    width: 100%; /* Full width */
+  }
+  
+  .form-group input[type="file"] {
+    border: none; /* No border for file input */
+  }
+  
+  .submit-button {
+    padding: 10px; /* Padding inside button */
+    background-color: #3498db; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9; /* Darker color on hover */
+  }
+  
+  .registration-message {
+    text-align: center; /* Center the message */
+    margin-top: 20px; /* Space above message */
+    color: #e74c3c; /* Error color */
+  }
+  /* Ensure input type="file" is styled and visible */
+.file-input {
+    padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .file-input:hover {
+    border-color: #0047ab;
+  }
+  
+  .registration-container {
+    max-width: 500px;
+    margin: auto auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0047ab; /* DFCU blue color */
+  }
+  
+  .registration-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .registration-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0047ab; /* DFCU blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .registration-button:hover {
+    background-color: #00368a;
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+  }
+  

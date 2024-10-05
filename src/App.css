@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f5f5f5; /* Light background color */
+  min-height: 100vh; /* Full height */
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px; /* Adjust logo size as needed */
+  height: auto;
+  margin-right: 10px; /* Space between logo and title */
+}
+
+.app-title {
+  font-size: 2em;
+  color: #2c3e50; /* Dark text color */
+}
+
+.app-nav {
+  background-color: #3498db; /* Navigation bar color */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.app-nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.app-nav ul li {
+  display: inline; /* Display links in a line */
+  margin-right: 20px; /* Space between links */
+}
+
+.app-nav a {
+  color: white; /* Link text color */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Make links bold */
+}
+
+.app-nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
